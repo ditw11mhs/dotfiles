@@ -113,6 +113,7 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias lc='colorls -lA --sd'
+alias lsc='colorls -a --sd'
 alias cdh='cd ~'
 alias code="code-insiders ."
 alias cdd="cd .."
