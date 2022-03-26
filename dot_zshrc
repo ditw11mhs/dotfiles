@@ -86,6 +86,9 @@ plugins=(copypath zsh-autoswitch-conda auto-color-ls sudo z zsh-autosuggestions 
 
 source $ZSH/oh-my-zsh.sh
 source $(dirname $(gem which colorls))/tab_complete.sh
+autoload bashcompinit
+bashcompinit
+source /usr/share/bash-completion/completions/nala
 
 # User configuration
 
